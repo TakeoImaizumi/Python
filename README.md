@@ -4,7 +4,7 @@ This program is a Python script that reproduces Figures 2 through 8 from the pap
 Paper Information
 Title: A dynamic model of subjectivity integrating emotional gain, internal bias, and self-regulation
 
-Author: Takeo Imaizumi
+Author: Takeo Imaizumi ([ORCID](https://orcid.org/0009-0003-9443-604X))
 
 Preprint Server: bioRxiv
 
