@@ -1,22 +1,55 @@
-# --- Library Import ---
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
-import matplotlib.patches as mpatches
-import matplotlib as mpl
-import seaborn as sns
+A dynamic model of subjectivity integrating emotional gain, internal bias, and self-regulation - Simulation Code
+This program is a Python script that reproduces Figures 2 through 8 from the paper "A dynamic model of subjectivity integrating emotional gain, internal bias, and self-regulation".
 
-# --- Global Settings ---
-plt.rcParams.update({
-    "figure.dpi": 600,
-    "font.size": 14, # Base font size set to 14pt
-    "axes.labelsize": 14, # Default size for axis labels
-    "axes.titlesize": 16, # Default size for titles
-    "xtick.labelsize": 12, # Default size for x-axis tick labels
-    "ytick.labelsize": 12, # Default size for y-axis tick labels
-    "legend.fontsize": 12, # Default size for legends (Fig.3 overrides this)
-    "font.family": "serif",
-    "figure.facecolor": "white",
-    "savefig.facecolor": "white",
-    "axes.facecolor": "white",
-})
+Paper Information
+Title: A dynamic model of subjectivity integrating emotional gain, internal bias, and self-regulation
+
+Author: Takeo Imaizumi
+
+Preprint Server: bioRxiv
+
+DOI: (To be added once available)
+
+Paper Link: (To be added once available)
+
+Requirements
+Python 3
+
+Libraries listed in requirements.txt
+
+Installation
+Clone this repository or download the source code.
+
+Install the required libraries:
+
+pip3 install -r requirements.txt
+
+(If pip3 does not work, try python3 -m pip install -r requirements.txt)
+
+Usage
+Run the script from your terminal:
+
+python3 fig.py
+
+Expected Output:
+fig2.pdf-fig8.pdf will be created in the same directory where the script is located.
+
+Code Structure
+fig.py: The main Python script for generating the figures.
+
+requirements.txt: A list of Python libraries required to run the script.
+
+README.md: This file.
+
+LICENSE: The license for this software.
+
+.gitignore: Specifies intentionally untracked files that Git should ignore.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Author
+Takeo Imaizumi
+
+Contact
+takeoimaizumi@song.ocn.ne.jp
