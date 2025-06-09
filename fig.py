@@ -183,16 +183,20 @@ G_flip_curve   = denom        # = 2 - 3αx²
 mu_flip_curve  = np.where(np.abs(denom) > 1e-8,
                           2 * x_vals * (1 - alpha * x_vals**2) / denom,
                           np.nan)
-mask_curve = (
-    (G_flip_curve >= G_min) & (G_flip_curve <= G_max) &
-    (mu_flip_curve >= mu_min) & (mu_flip_curve <= mu_max)
-)
-ax.plot(G_flip_curve[mask_curve], mu_flip_curve[mask_curve],
-        linestyle=":", color="black", linewidth=1.5, zorder=4)           # dotted
 
-if G_min <= 2 <= G_max:
-    ax.plot([2, 2], [mu_min, mu_max],
-            linestyle=":", color="black", linewidth=1.5, zorder=4)
+# To prevent clipping artifacts at the plot boundaries, 
+# replace out-of-bounds points with NaN so matplotlib creates a line break.
+G_plot = G_flip_curve.copy()
+mu_plot = mu_flip_curve.copy()
+out_of_bounds = (
+    (G_plot < G_min) | (G_plot > G_max) |
+    (mu_plot < mu_min) | (mu_plot > mu_max)
+)
+G_plot[out_of_bounds] = np.nan
+mu_plot[out_of_bounds] = np.nan
+
+# Plot the cleaned curve
+ax.plot(G_plot, mu_plot, linestyle=":", color="black", linewidth=1.5, zorder=4)
 
 # ----- Example trajectory (unchanged) --------------------------------
 cG = [-3.73898572881733, 0.2997416015624208,
