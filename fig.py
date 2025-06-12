@@ -1,6 +1,6 @@
-#A dynamic model of subjectivity integrating emotional gain, internal bias, and self-regulation - Simulation Code
+#A dynamic model of subjectivity integrating affective gain, cognitive bias, and self-regulation - Simulation Code
 #
-#This program is a Python script that reproduces Figures 2 through 8 from the paper "A dynamic model of subjectivity integrating emotional gain, internal bias, and self-regulation".
+#This program is a Python script that reproduces Figures 2 through 8 from the paper "A dynamic model of subjectivity integrating affective gain, cognitive bias, and self-regulation".
 #
 #Author: Takeo Imaizumi
 #DATE: June 1, 2025
@@ -238,8 +238,8 @@ ax.legend(handles=[patch0, patch1, patch2] + legend_lines,
 ax.set_xticks(np.arange(G_min, G_max + 0.1, 1.0))
 ax.set_yticks(np.arange(mu_min, mu_max + 0.1, 0.5))
 ax.grid(True, linestyle="-", linewidth=0.5)
-ax.set_xlabel("Emotional Gain ($G$)")
-ax.set_ylabel("Internal Bias ($\\mu$)")
+ax.set_xlabel("Affective Gain ($G$)")
+ax.set_ylabel("Cognitive Bias ($\\mu$)")
 ax.set_xlim(G_min, G_max)
 ax.set_ylim(mu_min, mu_max)
 
