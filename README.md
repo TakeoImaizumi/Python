@@ -1,7 +1,7 @@
-This program is a Python script that reproduces Figures 2 through 8 from the paper "A dynamic model of subjectivity integrating affective gain, cognitive bias, and self-regulation".
+This program is a Python script that reproduces Figures 2 through 8 from the paper "A dynamical model of subjectivity integrating affective gain, cognitive bias, and self-regulation".
 
 Paper Information
-Title: A dynamic model of subjectivity integrating affective gain, cognitive bias, and self-regulation
+Title: A dynamical model of subjectivity integrating affective gain, cognitive bias, and self-regulation
 
 Author: Takeo Imaizumi ([ORCID](https://orcid.org/0009-0003-9443-604X))
 
