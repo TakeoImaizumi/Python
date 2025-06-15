@@ -1,5 +1,5 @@
 #A dynamical model of subjectivity integrating affective gain, cognitive bias, and self-regulation - Simulation Code
-# DOI: https://doi.org/10.31234/osf.io/8dbft_v1
+# DOI: https://doi.org/10.31234/osf.io/8dbft_v2
 #This program is a Python script that reproduces Figures 2 through 8 from the paper "A dynamical model of subjectivity integrating affective gain, cognitive bias, and self-regulation".
 #
 #Author: Takeo Imaizumi
