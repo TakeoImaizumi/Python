@@ -7,7 +7,7 @@ Author: Takeo Imaizumi ([ORCID](https://orcid.org/0009-0003-9443-604X))
 
 Preprint Server: bioRxiv
 
-DOI: (https://doi.org/10.31234/osf.io/8dbft_v1)
+DOI: (https://doi.org/10.31234/osf.io/8dbft_v2)
 
 Paper Link: (To be added once available)
 
