@@ -2,10 +2,10 @@
 #
 #This program is a Python script that reproduces Figures 3 through 9 from the paper "A Dynamical Model of Subjectivity: Integrating Affective Gain, Cognitive Bias, and Self-Regulation - Simulation".
 #
-#Author: Takeo Imaizumi
+#
 #DATE: July 1, 2025
 #License: MIT License
-#Contact: takeoimaizumi@song.ocn.ne.jp
+#
 #
 #
 # --- Importing libraries ---
