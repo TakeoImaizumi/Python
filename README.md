@@ -4,6 +4,8 @@ Currently, due to changes in PsyArXiv’s operational policy (transition to stri
 
 Paper published on GitHub:
 A Dynamical Model of Subjectivity: Integrating Affective Gain, Cognitive Bias, and Self-Regulation (Version 7)
+
+File Name: Dynamical_Subjectivity_Model_Ver_1_AppendixE_F_G.pdf
 🔗https://doi.org/10.31234/osf.io/8dbft_v7
 🔗https://osf.io/preprints/psyarxiv/8dbft_v7​​​​​​​​​​​​​​​​
 
