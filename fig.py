@@ -512,12 +512,12 @@ def plot_and_save_fig10(
 
 
     # (A) Healthy Conflict (G>0, S-dominant)
-    G_q1 = 1.0
+    G_q1 = 0.8
     W_Fe_q1 = np.array([[-1.0, 0.0], [0.0, 1.0]])
     draw_panel(axes10[0, 0], "(A) Healthy Conflict (G>0, S-dominant)", G_q1, W_Fe_q1)
 
     # (B) Severe Conflict (G<0, S-dominant)
-    G_q2 = -1.0
+    G_q2 = -0.8
     W_Fe_q2 = np.array([[1.0, 0.0], [0.0, 1.0]])
     draw_panel(axes10[0, 1], "(B) Severe Conflict (G<0, S-dominant)", G_q2, W_Fe_q2)
 
