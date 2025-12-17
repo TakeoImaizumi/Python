@@ -30,9 +30,11 @@ Usage
 Run the script from your terminal:
 
 A Dynamical Model of Subjectivity: Toward an Integrative Computational Architecture for the Mind
+
 python3 Subjectivity.py
 
 The Geometry of Neural Scaling:\\From Empirical Laws to Geometric Saturation
+
 python3 Gepmetry.py
 
 Expected Output:
@@ -42,8 +44,6 @@ pdf will be created in the same directory where the script is located.
 requirements.txt: A list of Python libraries required to run the script.
 
 README.md: This file.
-
-LICENSE: The license for this software.
 
 .gitignore: Specifies intentionally untracked files that Git should ignore.
 
