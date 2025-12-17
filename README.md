@@ -33,6 +33,7 @@ A Dynamical Model of Subjectivity: Toward an Integrative Computational Architect
 python3 Subjectivity.py
 
 The Geometry of Neural Scaling:\\From Empirical Laws to Geometric Saturation
+python3 Gepmetry.py
 
 Expected Output:
 
