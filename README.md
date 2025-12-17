@@ -4,11 +4,11 @@ These programs are Python script that reproduces from the papers.
 
 Author: Takeo Imaizumi
 
-A Dynamical Model of Subjectivity: Toward an Integrative Computational Architecture for the Mind
+1) A Dynamical Model of Subjectivity: Toward an Integrative Computational Architecture for the Mind
 
 DOI: https://doi.org/10.51094/jxiv.1794
 
-The Geometry of Neural Scaling:\\From Empirical Laws to Geometric Saturation
+2) The Geometry of Neural Scaling: From Empirical Laws to Geometric Saturation
 
 DOI: https://doi.org/10.51094/jxiv.2161
 
@@ -29,11 +29,11 @@ Usage
 
 Run the script from your terminal:
 
-A Dynamical Model of Subjectivity: Toward an Integrative Computational Architecture for the Mind
+1) A Dynamical Model of Subjectivity: Toward an Integrative Computational Architecture for the Mind
 
 python3 Subjectivity.py
 
-The Geometry of Neural Scaling:\\From Empirical Laws to Geometric Saturation
+2) The Geometry of Neural Scaling:\\From Empirical Laws to Geometric Saturation
 
 python3 Gepmetry.py
 
