@@ -34,7 +34,7 @@ Run the script from your terminal:
 
 python3 Subjectivity.py
 
-2. The Geometry of Neural Scaling:\\From Empirical Laws to Geometric Saturation
+2. The Geometry of Neural Scaling: From Empirical Laws to Geometric Saturation
 
 python3 Geometry.py
 
