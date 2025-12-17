@@ -1,13 +1,13 @@
-A Dynamic Model of Subjectivity: Toward an Integrative Computational Architecture for the Mind - Simulation Code
+Simulation Code
 
-This program is a Python script that reproduces Figures 2 through 10 from the paper.
-Title: A Dynamic Model of Subjectivity: Toward an Integrative Computational Architecture for the Mind
-
+These programs are Python script that reproduces from the papers.
 Author: Takeo Imaizumi
 
+A Dynamical Model of Subjectivity: Toward an Integrative Computational Architecture for the Mind
 DOI: https://doi.org/10.51094/jxiv.1794
 
-Paper Link: (To be added once available)
+The Geometry of Neural Scaling:\\From Empirical Laws to Geometric Saturation
+DOI: https://doi.org/10.51094/jxiv.2161
 
 Requirements
 Python 3
@@ -21,18 +21,17 @@ Install the required libraries:
 
 pip3 install -r requirements.txt
 
-(If pip3 does not work, try python3 -m pip install -r requirements.txt)
-
 Usage
 Run the script from your terminal:
+A Dynamical Model of Subjectivity: Toward an Integrative Computational Architecture for the Mind
+python3 Subjectivity.py
 
-python3 fig.py
+The Geometry of Neural Scaling:\\From Empirical Laws to Geometric Saturation
+
+
 
 Expected Output:
-fig2.pdf-fig10.pdf will be created in the same directory where the script is located.
-
-Code Structure
-fig.py: The main Python script for generating the figures.
+pdf will be created in the same directory where the script is located.
 
 requirements.txt: A list of Python libraries required to run the script.
 
