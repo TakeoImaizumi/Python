@@ -5,8 +5,6 @@ Title: A Dynamic Model of Subjectivity: Toward an Integrative Computational Arch
 
 Author: Takeo Imaizumi
 
-Preprint Server: PsyArXiv
-
 DOI: https://doi.org/10.51094/jxiv.1794
 
 Paper Link: (To be added once available)
