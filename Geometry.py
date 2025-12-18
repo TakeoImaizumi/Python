@@ -6,8 +6,7 @@ def set_style():
     # portability
     plt.rcParams.update({
         "font.family": "serif",
-        "font.size": 12,
-        "axes.labelsize": 14,
+        "font.size": 12,        "axes.labelsize": 14,
         "axes.titlesize": 18,
         "xtick.labelsize": 12,
         "ytick.labelsize": 12,
@@ -66,16 +65,16 @@ def plot_figures(outdir="."):
     fig1.savefig(f"{outdir}/Fig1.png", dpi=300)
 
     # ---------------------------
-    # Figure 2: Schematic Data Collapse (toy)
+    # Figure 2: Schematic Data Collapse
     # ---------------------------
     fig2, ax2 = plt.subplots(figsize=(10, 7))
     N_samples = np.logspace(1, 6, 70)
 
-    # toy master curve: 1 + phi_plot
+    # master curve: 1 + phi_plot
     phi_theory = np.logspace(-4, 3, 300)
     ax2.loglog(phi_theory, 1.0 + phi_theory, "--", color="black",
                linewidth=2.5,
-               label=r"Toy master curve: $1+\phi_{\mathrm{plot}}$")
+               label=r"Idealized Master Curve: $1+\phi_{\mathrm{plot}}$")
 
     # enumerate
     for i, (H, nu, label) in enumerate(configs):
@@ -95,7 +94,7 @@ def plot_figures(outdir="."):
 
     ax2.set_xlabel(r"Schematic filling ratio ($\phi_{\mathrm{plot}} \equiv N_{\mathrm{eff}}^{(0)}/(pH_{\mathrm{free}})$)")
     ax2.set_ylabel(r"Schematic normalized loss ($\tilde{L}_{\mathrm{plot}}\equiv L\cdot N_{\mathrm{eff}}^{(0)}/H_{\mathrm{free}}$)")
-    ax2.set_title("Schematic Data Collapse (Toy Visualization)")
+    ax2.set_title("Schematic Data Collapse (Idealized Visualization)")
     ax2.set_xlim(1e-4, 2e3)
     ax2.set_ylim(1e-1, 2e3)
     ax2.grid(True, which="both", alpha=0.25)
